@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+  background: #ff4800;
+  background: url("./useImg.jpg");
+}
+
+.main-img {
+  height: 40rem;
+  width: 40rem;
+  border: 3px solid rgb(191, 75, 17);
+  border-radius: 2rem;
+}
+
+.main-text {
+  font-size: 3.6rem;
+  color: white;
+  font-weight: 700;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
