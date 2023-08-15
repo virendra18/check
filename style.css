@@ -17,7 +17,7 @@ html {
 }
 
 .main-content {
-  padding: 2rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
